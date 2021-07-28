@@ -9,6 +9,7 @@ library(ggplot2)
 data_nhanes = read.delim("NHANES.txt", na.strings = NA)
 head(data_nhanes)
 class(data_nhanes)
+
 str(data_nhanes) # structure, what variable = what type 
 
 # Vector Example
